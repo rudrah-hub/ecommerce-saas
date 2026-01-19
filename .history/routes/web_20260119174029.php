@@ -17,11 +17,3 @@ Route::get('/login', function () {
 Route::get('/forgot-password', function () {
     return view('auth.forgot-password');
 })->name('auth.forgot-password');
-
-Route::get('/reset-password', function () {
-    return view('auth.reset-password');
-})->name('auth.reset-password');
-
-Route::get('/admin-dashboard', function () {
-    return view('admin.dashboard');
-})->name('admin.dashboard');

@@ -5,7 +5,7 @@
         <div>
             @include('auth.header')
 
-            <div>
+            <div class="bg-white shadow rounded p-6">
                 @yield('page')
             </div>
 

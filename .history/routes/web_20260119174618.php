@@ -23,5 +23,5 @@ Route::get('/reset-password', function () {
 })->name('auth.reset-password');
 
 Route::get('/admin-dashboard', function () {
-    return view('admin.dashboard');
-})->name('admin.dashboard');
+    return view('admin.login');
+})->name('auth.login');

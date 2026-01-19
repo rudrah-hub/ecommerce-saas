@@ -52,7 +52,7 @@
                                 <button type="submit" value="Submit"
                                     class="btn btn-primary waves-effect waves-light w-100">Sign up</button>
                             </div>
-                            <p class="mb-5 text-center">Have any account? <a href="{{ route('auth.login') }}">Sign In
+                            <p class="mb-5 text-center">Have any account? <a href="authentication/login-frame.html">Sign In
                                     here</a>
                             </p>
                             <div class="border-bottom position-relative my-4 text-center">

@@ -10,12 +10,12 @@
                 <div class="col-xl-4 col-lg-5 col-md-6 align-self-center">
                     <div class="p-4 p-sm-5 maxw-450px m-auto">
                         <div class="mb-4 text-center">
-                            <a href="index.html" aria-label="Ecommerce Saas logo">
-                                <img class="visible-light" src="assets/images/logo.svg" alt="Ecommerce Saas logo">
+                            <a href="index.html" aria-label="Ecommerce SaaS logo">
+                                <img class="visible-light" src="assets/images/logo.svg" alt="NexLink logo">
                             </a>
                         </div>
                         <div class="text-center mb-5">
-                            <h5 class="mb-1">Welcome to Ecommerce Saas</h5>
+                            <h5 class="mb-1">Welcome to NexLink</h5>
                             <p>Sign up to create your secure admin.</p>
                         </div>
                         <form action="index.html">
@@ -52,7 +52,7 @@
                                 <button type="submit" value="Submit"
                                     class="btn btn-primary waves-effect waves-light w-100">Sign up</button>
                             </div>
-                            <p class="mb-5 text-center">Have any account? <a href="{{ route('auth.login') }}">Sign In
+                            <p class="mb-5 text-center">Have any account? <a href="authentication/login-frame.html">Sign In
                                     here</a>
                             </p>
                             <div class="border-bottom position-relative my-4 text-center">

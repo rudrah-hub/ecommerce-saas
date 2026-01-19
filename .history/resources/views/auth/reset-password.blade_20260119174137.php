@@ -1,6 +1,3 @@
-@extends('layouts.auth')
-
-@section('page')
     <div class="page-layout">
 
         <div class="auth-frame-wrapper">
@@ -34,7 +31,8 @@
                             <div class="mb-4">
                                 <label class="form-label" for="confirmPassword">Confirm Password</label>
                                 <div class="password-wrapper">
-                                    <input type="password" class="form-control" id="confirmPassword" placeholder="********">
+                                    <input type="password" class="form-control" id="confirmPassword"
+                                        placeholder="********">
                                     <button type="button" class="toggle-password" aria-pressed="false"
                                         aria-label="Show password" title="Show password">
                                         <i class="close fi fi-rr-eye-crossed" aria-hidden="true"></i>
@@ -61,4 +59,3 @@
         </div>
 
     </div>
-@endsection

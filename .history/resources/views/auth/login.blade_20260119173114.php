@@ -16,13 +16,9 @@
                         </div>
                         <div class="text-center mb-5">
                             <h5 class="mb-1">Welcome to Ecommerce Saas</h5>
-                            <p>Sign up to create your secure admin.</p>
+                            <p>Sign in to create your secure admin.</p>
                         </div>
                         <form action="index.html">
-                            <div class="mb-4">
-                                <label class="form-label" for="registerName">Name</label>
-                                <input type="text" class="form-control" id="registerName" placeholder="Full Name">
-                            </div>
                             <div class="mb-4">
                                 <label class="form-label" for="registerEmail">Email Address</label>
                                 <input type="email" class="form-control" id="registerEmail"
@@ -40,19 +36,11 @@
                                     </button>
                                 </div>
                             </div>
-                            <div class="mb-4">
-                                <div class="form-check mb-0">
-                                    <input class="form-check-input" type="checkbox" id="termsConditions" name="terms">
-                                    <label class="form-check-label" for="termsConditions">
-                                        I agree to <a href="javascript:void(0);">privacy policy & terms</a>
-                                    </label>
-                                </div>
-                            </div>
                             <div class="mb-3">
                                 <button type="submit" value="Submit"
-                                    class="btn btn-primary waves-effect waves-light w-100">Sign up</button>
+                                    class="btn btn-primary waves-effect waves-light w-100">Sign in</button>
                             </div>
-                            <p class="mb-5 text-center">Have any account? <a href="{{ route('auth.login') }}">Sign In
+                            <p class="mb-5 text-center">Create an account? <a href="authentication/login-frame.html">Sign In
                                     here</a>
                             </p>
                             <div class="border-bottom position-relative my-4 text-center">
@@ -60,7 +48,7 @@
                                     Continue With</span>
                             </div>
                             <button type="submit" class="btn btn-light waves-effect waves-light w-100">
-                                <img src="assets/images/icons/google.svg" alt="" class="me-1"> Sign up with
+                                <img src="assets/images/icons/google.svg" alt="" class="me-1"> Sign in with
                                 Google
                             </button>
                         </form>

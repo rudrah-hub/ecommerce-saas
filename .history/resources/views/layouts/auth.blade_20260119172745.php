@@ -1,11 +1,11 @@
 @extends('layouts.base')
 
 @section('content')
-    <div>
+    <div class="min-h-screen flex items-center justify-center bg-gray-100">
         <div>
             @include('auth.header')
 
-            <div>
+            <div class="bg-white shadow rounded p-6">
                 @yield('page')
             </div>
 
